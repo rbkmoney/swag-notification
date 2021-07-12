@@ -1,0 +1,26 @@
+description: Модель уведомления
+type: object
+required:
+  - id
+  - createdAt
+  - status
+  - title
+  - content
+properties:
+  id:
+    $ref: './NotificationId.yaml'
+  createdAt:
+    description: Дата и время создания уведомления
+    type: string
+    format: date-time
+    readOnly: true
+  status:
+    $ref: './NotificationStatus.yaml'
+  title:
+    description: Заголовок уведомления
+    type: string
+  content:
+    description: Текст уведомления в формате base64
+    type: string
+    example: PHA+SSByZWFsbHkgbGlrZSB1c2luZyBNYXJrZG93bi48L3A+
+

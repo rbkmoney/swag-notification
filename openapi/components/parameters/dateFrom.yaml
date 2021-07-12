@@ -1,0 +1,6 @@
+name: from
+in: query
+required: false
+schema:
+  type: string
+  format: date-time
