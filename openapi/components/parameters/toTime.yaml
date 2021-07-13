@@ -1,4 +1,4 @@
-name: from
+name: toTime
 in: query
 required: false
 schema:
