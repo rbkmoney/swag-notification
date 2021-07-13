@@ -20,7 +20,6 @@ properties:
     description: Заголовок уведомления
     type: string
   content:
-    description: Текст уведомления в формате base64
+    description: Текст уведомления
     type: string
-    example: PHA+SSByZWFsbHkgbGlrZSB1c2luZyBNYXJrZG93bi48L3A+
 
