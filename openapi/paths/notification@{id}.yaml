@@ -28,6 +28,7 @@ delete:
     - notifications
   parameters:
     - $ref: '../components/parameters/requestId.yaml'
+    - $ref: '../components/parameters/notificationResourceId.yaml'
   responses:
     '200':
       description: Уведомление удалено
