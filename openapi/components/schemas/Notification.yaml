@@ -1,4 +1,4 @@
-description: Модель уведомления
+description: Сущность уведомления
 type: object
 required:
   - id

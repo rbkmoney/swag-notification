@@ -9,7 +9,6 @@ get:
     - $ref: '../components/parameters/status.yaml'
     - $ref: '../components/parameters/fromTime.yaml'
     - $ref: '../components/parameters/toTime.yaml'
-    - $ref: '../components/parameters/date.yaml'
     - $ref: '../components/parameters/limit.yaml'
     - $ref: '../components/parameters/continuationToken.yaml'
   responses:

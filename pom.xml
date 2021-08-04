@@ -6,12 +6,12 @@
 
     <parent>
         <groupId>com.rbkmoney</groupId>
-        <artifactId>parent</artifactId>
-        <version>1.0.5</version>
+        <artifactId>library-parent-pom</artifactId>
+        <version>1.0.3</version>
     </parent>
 
-    <artifactId>openapi-notification</artifactId>
-    <version>1.--client</version>
+    <artifactId>swag-notification</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Notification</name>
