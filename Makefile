@@ -48,7 +48,7 @@ MVN = mvn -s $(SETTINGS_XML) -Dcommit.number="$(NUMBER_COMMITS)"
 
 java.openapi.compile_client: java.settings
 	$(MVN) clean && \
-	$(MVN) compile -P="client"
+	$(MVN) compile -P="client" -X
 
 java.openapi.deploy_client: java.settings
 	$(MVN) clean && \
@@ -62,7 +62,7 @@ java.openapi.install_client: java.settings
 
 java.openapi.compile_server: java.settings
 	$(MVN) clean && \
-	$(MVN) compile -P="server"
+	$(MVN) compile -P="server" -X
 
 java.openapi.deploy_server: java.settings
 	$(MVN) clean && \
