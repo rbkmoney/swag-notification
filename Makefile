@@ -2,7 +2,7 @@ UTILS_PATH := build_utils
 TEMPLATES_PATH := .
 
 SERVICE_NAME := openapi-notification
-BUILD_IMAGE_TAG := bdc05544014b3475c8e0726d3b3d6fc81b09db96
+BUILD_IMAGE_TAG := 442c2c274c1d8e484e5213089906a4271641d95e
 
 CALL_ANYWHERE := all install validate build java.compile java.deploy
 CALL_W_CONTAINER := $(CALL_ANYWHERE)
