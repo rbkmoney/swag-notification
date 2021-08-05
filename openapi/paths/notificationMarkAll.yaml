@@ -9,15 +9,7 @@ post:
     content:
       application/json:
         schema:
-          type: object
-          required:
-            - status
-          properties:
-            status:
-              type: string
-              enum:
-                - read
-                - unread
+          $ref: ../components/schemas/MarkAllNotifications.yaml
   responses:
     '200':
       description: Уведомления отмечены
